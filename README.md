@@ -1,11 +1,11 @@
-# TikShop - Catálogo SAAS con integración TikTok
+# TikShopping - Catálogo SAAS con integración TikTok
 
 **Curso:** Taller de Desarrollo Web  
 **Equipo:** Grupo 1  
 **Año:** 2026
 
 ## Descripción
-TikShop es una plataforma SAAS (Software as a Service) que permite a pequeños negocios crear y publicar su catálogo de productos de forma sencilla, con la posibilidad de integrarse en videos de TikTok para mostrar el catálogo en TikShop.
+TikShopping es una plataforma SAAS (Software as a Service) que permite a pequeños negocios crear y publicar su catálogo de productos de forma sencilla, con la posibilidad de integrarse en videos de TikTok para mostrar el catálogo en TikShopping.
 
 ## Características principales
 - 🏠 Página de inicio con lista de negocios destacados.
@@ -13,7 +13,7 @@ TikShop es una plataforma SAAS (Software as a Service) que permite a pequeños n
 - 📝 Formulario de sugerencias para clientes.
 - 📄 Libro de reclamaciones.
 - 📍 Contáctenos con mapa de ubicación.
-- 🎥 Link/Función de TikShop incrustados en videos de TikTok.
+- 🎥 Link/Función de TikShopping incrustados en videos de TikTok.
 - 📱 Diseño completamente responsivo.
 - 🔐 Simulación de registro/login. 
 
@@ -47,10 +47,10 @@ TikShop es una plataforma SAAS (Software as a Service) que permite a pequeños n
 
 ## Cómo ver el proyecto
 1. Clona el repositorio:  
-   `git clone https://github.com/Inici4rSesion/TikShop.git`
+   `git clone https://github.com/Inici4rSesion/TikShopping.git`
 2. Abre `index.html` en tu navegador.
 3. O visita la versión desplegada (GitHub Pages):  
-   `https://Inici4rSesion.github.io/TikShop/`
+   `https://Inici4rSesion.github.io/TikShopping/`
 
 ## Licencia
 MIT License
