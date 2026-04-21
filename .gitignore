@@ -1,0 +1,25 @@
+# NetBeans project files
+nbproject/
+nbproject/private/
+
+# Public_html o Site Root (si quieres ignorar la carpeta contenedora, pero mejor no)
+# public_html/
+
+# Build tools and dependencies (si no las usas)
+.bowerrc
+Gruntfile.js
+gulpfile.js
+bower.json
+package.json
+node_modules/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Logs and temporary files
+*.log
+*.tmp
