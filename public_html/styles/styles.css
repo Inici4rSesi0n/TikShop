@@ -1,0 +1,122 @@
+:root {
+    --shein-black: #222222;
+    --shein-white: #ffffff;
+    --shein-gray: #f5f5f5;
+    --shein-border: #e5e5e5;
+    --shein-red: #fa6338;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: var(--shein-white);
+    color: var(--shein-black);
+}
+
+/* Navegación */
+header {
+    border-bottom: 1px solid var(--shein-border);
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background: var(--shein-white);
+    z-index: 100;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: var(--shein-black);
+    font-size: 14px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Contenedor Principal */
+.container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Botones */
+.btn {
+    background-color: var(--shein-black);
+    color: var(--shein-white);
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    transition: background 0.3s;
+}
+.btn:hover {
+    background-color: #444;
+}
+
+/* Formularios (Sugerencias, Reclamaciones, Contacto) */
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    background: var(--shein-gray);
+    padding: 30px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--shein-border);
+    outline: none;
+}
+.form-group input:focus, .form-group textarea:focus {
+    border-color: var(--shein-black);
+}
+
+/* Grilla de Catálogo */
+.grid-catalogo {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+.producto {
+    text-align: center;
+    cursor: pointer;
+}
+.producto img {
+    width: 100%;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+    background: var(--shein-gray);
+}
+.producto h3 {
+    font-size: 13px;
+    margin: 10px 0 5px;
+    font-weight: normal;
+}
+.producto p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles/styles.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header>
+            <div class="logo">FashionCloud</div>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="catalogo.html">Catálogo</a>
+                <a href="sugerencias.html">Sugerencias</a>
+                <a href="reclamaciones.html">Libro de Reclamaciones</a>
+                <a href="contactenos.html">Contáctenos</a>
+                <a href="crear_cuenta_tiktok.html">TikTok</a>
+            </nav>
+        </header>
+
+        <div class="container">
+            <div class="form-container" style="max-width: 700px;">
+                <h2 style="margin-bottom: 20px; border-bottom: 2px solid var(--shein-black); padding-bottom: 10px;">Libro de Reclamaciones Virtual</h2>
+                <form>
+                    <div class="form-group">
+                        <label>Tipo de Documento</label>
+                        <select style="width: 100%; padding: 10px; border: 1px solid #e5e5e5;">
+                            <option>DNI</option>
+                            <option>CE</option>
+                            <option>Pasaporte</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Número de Documento</label>
+                        <input type="text" placeholder="Ej: 12345678" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Nombre Completo</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Detalle de la Queja o Reclamo</label>
+                        <textarea rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Enviar Reclamo</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
